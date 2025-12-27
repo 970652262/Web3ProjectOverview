@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Web3 项目导航 | 一登课程',
-  description: '一登 Web3 课程作业项目展示平台',
+  title: 'Web3 项目导航',
+  description: 'Dryvin Web3 项目展示平台',
 }
 
 export default function RootLayout({

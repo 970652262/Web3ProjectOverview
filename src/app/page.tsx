@@ -43,13 +43,9 @@ export default function Home() {
             <div className="h-px w-16 bg-gradient-to-l from-transparent to-cyan-400" />
           </div>
 
-          <h1 className="text-4xl md:text-5xl font-bold mb-4 gradient-text">
+          <h1 className="text-4xl md:text-5xl font-bold mb-12 gradient-text">
             Web3 项目导航
           </h1>
-
-          <p className="text-gray-400 max-w-2xl mx-auto mb-8">
-            一登 Web3 课程作业项目展示平台，记录学习过程中的每一个项目
-          </p>
 
           {/* 添加项目按钮 */}
           <button
@@ -98,11 +94,11 @@ export default function Home() {
         <footer className="mt-20 text-center">
           <div className="flex items-center justify-center gap-4 mb-4">
             <div className="h-px w-20 bg-gradient-to-r from-transparent to-gray-700" />
-            <span className="text-gray-600 text-sm">YIDENG WEB3</span>
+            <span className="text-gray-600 text-sm">Dryvin WEB3</span>
             <div className="h-px w-20 bg-gradient-to-l from-transparent to-gray-700" />
           </div>
-          <p className="text-gray-600 text-xs">
-            Powered by Next.js + Supabase + Tailwind CSS
+          <p className="text-gray-500 text-sm">
+            © {new Date().getFullYear()} Dryvin. All rights reserved.
           </p>
         </footer>
       </div>

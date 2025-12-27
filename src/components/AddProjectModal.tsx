@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { supabase, Project } from '@/lib/supabase'
+import { supabase } from '@/lib/supabase'
 
 interface AddProjectModalProps {
   isOpen: boolean
